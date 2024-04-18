@@ -8,6 +8,7 @@ QUALQUER ALTERAÇÃO VISUAL É FEITA NO CSS
 TAG'S COMO H1, H2, BR, P... SÃO USADAS SOMENTE PARA SEMÂNTICA
 
 -->
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -26,17 +27,18 @@ TAG'S COMO H1, H2, BR, P... SÃO USADAS SOMENTE PARA SEMÂNTICA
             <h2>
                 Navegação Principal
             </h2>
-            <span>
-                <a href="index.html" target="_self">Início</a>
-            </span>
-            -
-            <span>
-                <a href="sobre.html" target="_blank">Sobre mim</a>
-            </span>
-            -
-            <span>
-                <a href="contato.html" target="_parent">Contato</a>
-            </span>
+            <ol>
+                <li>
+                    <a href="index.html" target="_self">Início</a>
+                </li>
+                <li>
+                    <a href="sobre.html" target="_blank">Sobre mim</a>
+                </li>
+                <li>
+                    <a href="contato.html" target="_parent">Contato</a>
+                </li>
+            </ol>
+
         </nav>
     </header>
     <section><!--Se faz sentido sozinho, usa article / Section que repete como irmãos...-->
@@ -54,7 +56,9 @@ TAG'S COMO H1, H2, BR, P... SÃO USADAS SOMENTE PARA SEMÂNTICA
             <h4>
                 Dados de Contato
             </h4>
-            ...
+            <a href="mailto:julianoqm@gmail.com">julianoqm@gmail.com</a><br />
+            <a href="tel:+5531984204877">(31)9 8420-4877</a>
+            <a href="https://wa.me/5531984204877?text=Ol%C3%A1%2C+Juliano%21" target="_blank">WhatsApp</a>
         </article>
     </section>
     <main><!-- MAIN = Principal = Conteudo exclusivo, só existe nesta pagina-->
@@ -125,32 +129,78 @@ TAG'S COMO H1, H2, BR, P... SÃO USADAS SOMENTE PARA SEMÂNTICA
         <h5>
             Experiência profissional
         </h5>
-        <article>
-            <h6>
-                Auxiliar Administrativo - Empresa X
-            </h6>
-            <header>
-                Início jan/2020
-            </header>
-            <section>
-                <h6>
-                    Responsabilidades:
-                </h6>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dignissim blandit lectus, sit amet
-                    tempor ante placerat et. Pellentesque in nulla ut erat sodales placerat vel eget sapien. Sed
-                    eleifend, lectus vitae pharetra suscipit, erat risus egestas diam, non viverra urna arcu vitae
-                    lacus. Curabitur ultricies gravida massa ac facilisis. Phasellus sed arcu commodo lectus rutrum
-                    bibendum. Donec commodo condimentum risus et blandit. Mauris sit amet odio interdum, mollis ante
-                    nec, tincidunt risus. Phasellus accumsan mi id dapibus auctor. Duis rhoncus porttitor dui, non
-                    pharetra tortor placerat sed. Vivamus feugiat dapibus turpis at pellentesque. Suspendisse potenti.
-                </p>
+        <ol>
+            <li>
+                <article>
+                    <h6>
+                        Auxiliar Administrativo - Empresa X
+                    </h6>
+                    <header>
+                        Início jan/2020
+                    </header>
+                    <section>
+                        <h6>
+                            Responsabilidades:
+                        </h6>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dignissim blandit lectus,
+                            sit
+                            amet
+                            tempor ante placerat et. Pellentesque in nulla ut erat sodales placerat vel eget sapien. Sed
+                            eleifend, lectus vitae pharetra suscipit, erat risus egestas diam, non viverra urna arcu
+                            vitae
+                            lacus. Curabitur ultricies gravida massa ac facilisis. Phasellus sed arcu commodo lectus
+                            rutrum
+                            bibendum. Donec commodo condimentum risus et blandit. Mauris sit amet odio interdum, mollis
+                            ante
+                            nec, tincidunt risus. Phasellus accumsan mi id dapibus auctor. Duis rhoncus porttitor dui,
+                            non
+                            pharetra tortor placerat sed. Vivamus feugiat dapibus turpis at pellentesque. Suspendisse
+                            potenti.
+                        </p>
 
-            </section>
-            <footer>
-                Término 12/2021
-            </footer>
-        </article>
+                    </section>
+                    <footer>
+                        Término 12/2021
+                    </footer>
+                </article>
+            </li>
+            <li>
+                <article>
+                    <h6>
+                        Professor de Desenvolvimento de Sistemas - PROZ
+                    </h6>
+                    <header>
+                        Início jan/2024
+                    </header>
+                    <section>
+                        <h6>
+                            Responsabilidades:
+                        </h6>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dignissim blandit lectus,
+                            sit
+                            amet
+                            tempor ante placerat et. Pellentesque in nulla ut erat sodales placerat vel eget sapien. Sed
+                            eleifend, lectus vitae pharetra suscipit, erat risus egestas diam, non viverra urna arcu
+                            vitae
+                            lacus. Curabitur ultricies gravida massa ac facilisis. Phasellus sed arcu commodo lectus
+                            rutrum
+                            bibendum. Donec commodo condimentum risus et blandit. Mauris sit amet odio interdum, mollis
+                            ante
+                            nec, tincidunt risus. Phasellus accumsan mi id dapibus auctor. Duis rhoncus porttitor dui,
+                            non
+                            pharetra tortor placerat sed. Vivamus feugiat dapibus turpis at pellentesque. Suspendisse
+                            potenti.
+                        </p>
+
+                    </section>
+                    <footer>
+                        Atual
+                    </footer>
+                </article>
+            </li>
+        </ol>
         <nav>
             Links complementares
         </nav>
@@ -166,8 +216,8 @@ TAG'S COMO H1, H2, BR, P... SÃO USADAS SOMENTE PARA SEMÂNTICA
                    caminho completo
                    protocolo + url 
                 -->
-                <a href="https://www.linkedin.com/in/julianogti/" target="_blank" >LinkdIn</a>
-                <a href="https://inscricao.prozeducacao.com.br/" target="_blank" >Proz</a>
+                <a href="https://www.linkedin.com/in/julianogti/" target="_blank">LinkdIn</a>
+                <a href="https://inscricao.prozeducacao.com.br/" target="_blank">Proz</a>
                 Faculdade<br />
                 Localização<br />
             </h6>
