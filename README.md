@@ -1,6 +1,7 @@
 # Currículo Juliano
 
-Este é um arquivo HTML que descreve o currículo de Juliano Fernando da Silva. Abaixo está uma explicação detalhada do código:
+Este é um arquivo HTML que descreve o currículo de Juliano Fernando da Silva. Abaixo está uma explicação detalhada do código: (Arquivo usado para auxilio das aulas de HTML na PROZ)
+## Prof.: Juliano Silva
 
 ## Estrutura Geral
 - `<!DOCTYPE html>`: Declara o tipo de documento como HTML5.
