@@ -9,7 +9,6 @@
     <header><!--HEADER pode ser usado para cada sessão - Cebeçalho-->
         <h1><!--H1 só pode ser usado 1 vez dentro de um site - Somente para o assunto principal do site-->
             Contato
-            
         </h1>
         <nav>
             <h2>
@@ -28,5 +27,13 @@
             </span>
         </nav>
     </header>
+    <!--GET = Quando quiser puxar uma informação do servidor,
+        POST = Quando quiser criar um novo recurso no servidor-->
+    <form method="GET">
+        <!--GET é o metodo como vamos passar o formulario, e ACTION é par aonde vamos mandar o formulario-->
+        <input type="text" name="nome" placeholder="Nome"><br>
+        <input type="email" name="email" placeholder="E-mail"><br>
+        <input type="tel" name="tel" placeholder="(xx) xxxxx-xxxx"><br>        
+    </form>
 </body>
 </html>
