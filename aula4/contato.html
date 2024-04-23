@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sobre</title>
 </head>
+
 <body>
     <header><!--HEADER pode ser usado para cada sessão - Cebeçalho-->
         <h1><!--H1 só pode ser usado 1 vez dentro de um site - Somente para o assunto principal do site-->
@@ -33,7 +35,7 @@
         <!--GET é o metodo como vamos passar o formulario, e ACTION é par aonde vamos mandar o formulario-->
         <input type="text" name="nome" placeholder="Nome"><br>
         <input type="email" name="email" placeholder="E-mail"><br>
-        <input type="tel" name="tel" placeholder="(xx) xxxxx-xxxx"><br>  
+        <input type="tel" name="tel" placeholder="(xx) xxxxx-xxxx"><br>
         <input type="number" name="idade" placeholder="idade"><br>
         <input type="url" name="linkedin" placeholder="LinkdIn url"><br>
         <hr>
@@ -46,12 +48,31 @@
         <input type="checkbox" name="dia-da-semana" value="6"> Sexta<br>
         <hr>
         Radio, permite a seleção de vários <br>
-        <input type="radio" name="horario"  value="manha">Manhã<br>
-        <input type="radio" name="horario"  value="tarde">Tarde <br>
+        <input type="radio" name="horario" value="manha">Manhã<br>
+        <input type="radio" name="horario" value="tarde">Tarde <br>
         <input type="radio" name="horario" value="noite">Noite <br>
         <hr>
         Text Area <br>
         <textarea cols="50" rows="10">Area de texto</textarea>
+        <hr>
+        Select <br>
+        <select name="cidade">
+            <option value="">Selecione a Cidade</option>
+            <option value="Blumenaua">Blumenau</option>
+            <option value="Florianópolis">Florianopolis</option>
+            <option value="Joinville">Joinville</option>
+        </select>
+        <hr>
+        List
+        <br>
+        <input list="cidade" name="cidade" />
+        <datalist id="cidade">
+            <option value="São João del Rei">São João del Rei</option>
+            <option value="Coronel Xavier Chaves">Coronel Xavier Chaves</option>
+            <option value="Prados">Prados</option>
+            </select>
+
     </form>
 </body>
+
 </html>
