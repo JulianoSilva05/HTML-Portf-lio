@@ -53,7 +53,7 @@
         <input type="radio" name="horario" value="noite">Noite <br>
         <hr>
         Text Area <br>
-        <textarea cols="50" rows="10">Area de texto</textarea>
+        <textarea name="mensagem" cols="50" rows="10">Area de texto</textarea>
         <hr>
         Select <br>
         <select name="cidade">
@@ -65,12 +65,18 @@
         <hr>
         List
         <br>
-        <input list="cidade" name="cidade" />
+        Cidade: <input list="cidade" name="cidade" />
         <datalist id="cidade">
             <option value="São João del Rei">São João del Rei</option>
             <option value="Coronel Xavier Chaves">Coronel Xavier Chaves</option>
             <option value="Prados">Prados</option>
-            </select>
+        </datalist>
+        <br>
+        <button type="button">Outra ação</button>
+        <button type="reset">Limpar</button>
+        <button type="submit">E N V I A R</button>
+        <!-- Ou podemos usar somente o input-->
+        <input type="submit">
 
     </form>
 </body>
