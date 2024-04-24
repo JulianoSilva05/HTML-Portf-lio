@@ -1,3 +1,14 @@
+
 html{
-    color: rgba(125, 100, 100,1);
+    color: #EE0000;
+    background-color: #000000;
+    
+}
+main{
+    background-color: #ffffff;
+
+}
+
+.titulo-aula{
+    background-color: chartreuse;
 }
