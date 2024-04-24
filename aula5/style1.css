@@ -1,0 +1,47 @@
+h1{
+    color: red;
+}
+main h1{
+    color: black;
+}
+
+h2 /*Seletor*/{ /* { bloco } */
+    color: green; /* color = Atributo / green = valor do atributo*/
+}
+
+p {
+    color: rgb(67, 100, 0);
+}
+
+.titulo-aula {
+    text-decoration: underline;
+}
+
+.texto-azul { /*Classe usa-se ponto*/
+    color: blue;
+}
+
+.texto-vermelho {
+    color: red;
+}
+
+#titulo-primeira-aula { /*ID usa-se # para o seletor*/
+    text-decoration: none;
+}
+
+#titulo-segunda-aula {
+    color: brown;
+}
+
+.texto-vermelho .comentario{/*a tag comentario que está dentro do texto-vermelho*/
+    color: rgb(0, 148, 148);
+}
+
+.texto-roxo.comentario{/*que tenha as duas tags = texto-vermelho e comentario*/
+    color: rgb(183, 0, 255);
+}
+
+.comentario{
+    color: red;
+}
+
