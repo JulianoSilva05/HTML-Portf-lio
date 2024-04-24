@@ -2,13 +2,16 @@
 html{
     color: #EE0000;
     background-color: #000000;
-    
+    background-image: url('img/cao.gif');
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position: center;
 }
 main{
-    background-color: #ffffff;
+    background-color: #ffffff76;
 
 }
 
 .titulo-aula{
-    background-color: chartreuse;
+    background-color: rgba(128, 255, 0, 0.382);
 }
