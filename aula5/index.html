@@ -5,20 +5,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS1</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header>
         <h1>Aula CSS</h1>
     </header>
     <main>
+        <h1>Lista de aulas</h1>
         <article>
-            <h2>
+            <h2 class="titulo-aula texto-azul" id="titulo-primeira-aula">
+                <!--Cada pagina pode ter somente um id, pórem esse id pode se repetir em outras páginas-->
                 Primeira Aula CSS
             </h2>
             <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin varius nisl diam, lacinia vehicula purus
                 ullamcorper ut. Fusce est est, auctor ut metus et, rutrum interdum augue. Phasellus eu mattis odio, vel
-                viverra ipsum. Sed quis justo mauris. Nam nec maximus ante. Vivamus lacinia sed orci eget vehicula. Duis
+                viverra ipsum. Sed quis justo mauris. Nam nec maximus ante. Vivamus <span class="comentario">Este é um comentario </span>lacinia sed orci eget vehicula. Duis
                 et eros in leo luctus sollicitudin sit amet vel ligula. Vestibulum massa turpis, porta in aliquet vitae,
                 egestas sit amet nibh.
 
@@ -29,8 +33,25 @@
                 iaculis ut nisl quis, aliquam fringilla nibh. Suspendisse ut consectetur quam. Curabitur tempor quam ac
                 ex lobortis, elementum porttitor justo faucibus. Maecenas eget velit ipsum. Maecenas sit amet semper
                 felis.
+            </p>
 
+            <!--
+                <h2 style="color:red; text-decoration:none ;"> CSS inline, usado para casos especificos, vantagens: não é carregado toda vez que abre a pagina.
+            Desvantagens: DIficil manutenção, baixo padrão e vai contra o CLEANCODE
+            -->
 
+            <h2 class="titulo-aula texto-vermelho" id="titulo-segunda-aula">
+                Segunda Aula
+            </h2>
+            <p class="texto-vermelho">
+                <!-- Classes são usadas para agrupar elementos e classifica-los, e os id`s para identificar seletores, e utilizar o JS-->
+                Aliquam ipsum dui, vehicula sit amet rutrum in, porttitor nec tellus. Curabitur sodales arcu elit, in
+                ultrices purus auctor quis. Maecenas vel nisl ex. Maecenas id dolor et enim scelerisque suscipit.
+                Suspendisse et tellus <span class="comentario">Este é um comentario </span> ac tortor venenatis auctor consequat vel dui. Phasellus faucibus, ligula vitae
+                euismod scelerisque, felis nisi tincidunt elit, non laoreet magna mi at ante. Praesent massa lectus,
+                iaculis ut nisl quis, aliquam fringilla nibh. <span class="comentario texto-roxo">Este é um comentario </span>Suspendisse ut consectetur quam. Curabitur tempor quam ac
+                ex lobortis, elementum porttitor justo faucibus. Maecenas eget velit ipsum. Maecenas sit amet semper
+                felis.
             </p>
         </article>
     </main>
