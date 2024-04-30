@@ -1,0 +1,21 @@
+
+html{
+    color: #EE0000;
+    background-color: #000000;
+    background-image: url('img/cao.gif');
+    background-repeat: no-repeat;
+    background-size: 25%;
+    height: 100vh;
+    background-position: right;
+}
+main{
+    background-color: #ffffff76;
+    margin-top:105px;
+    width: 70%;
+    height: 645px;
+
+}
+
+.titulo-aula{
+    background-color: rgba(128, 255, 0, 0.382);
+}

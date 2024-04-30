@@ -1,17 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Pacifico&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Pacifico&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+
+@font-face {
+    font-family: alexbrush;
+    src: url(AlexBrush-Regular.ttf);
+
+    font-family: alexpacifico;
+    src: url(Pacifico-Regular.ttf);
+}
 
 html{
-    color: #EE0000;
-    background-color: #000000;
-    background-image: url('img/cao.gif');
-    background-repeat: no-repeat;
-    height: 100vh;
-    background-position: center;
-}
-main{
-    background-color: #ffffff76;
-
-}
-
-.titulo-aula{
-    background-color: rgba(128, 255, 0, 0.382);
+    font-family: 'Ubuntu';
 }
