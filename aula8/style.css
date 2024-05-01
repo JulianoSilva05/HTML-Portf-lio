@@ -1,0 +1,49 @@
+body{
+background-color: #000000;
+margin: 0;
+}
+
+.box{
+    box-sizing: border-box;/*Não leva em conta a largura dos elementos*/
+    /*box-sizing: content-box;/*Leva em conta a largura dos elementos*/
+    height: 100px;
+    width: 100px;
+    color:white; 
+    border: 2px solid yellow;
+    border-radius: 20px;
+    margin: 10px 0 5px 10px;
+}
+
+.vermelho{
+    background-color: rgb(51, 8, 8);
+    border-color: red;
+    background-image: url(../aula5/img/cao.gif);
+    background-repeat:no-repeat;
+    background-size: cover;
+    border-width: 5px;
+    border-bottom-width: 0;
+    border-style: dashed;
+    
+}
+.azul{
+    background-color: rgb(43, 43, 252);
+    border-color: rgb(0, 0, 74);
+    background-image: url(../aula5/img/cao.gif);
+    background-repeat:no-repeat;
+    background-size: cover;
+    border-width: 10px 0px 5px 3px;
+    border-bottom-style: double;
+    border-radius: 0 0 50px 10px;
+    margin-bottom: 50px;
+}
+
+.verde{
+    background-color: green;
+    border-color: green;
+    border-style: solid;
+    border-top-left-radius:50px;
+    background-image: url(../aula5/img/cao.gif);
+    background-repeat:no-repeat;
+    background-size: cover;
+    margin-left: 0;
+}
