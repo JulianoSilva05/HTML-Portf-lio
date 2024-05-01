@@ -14,3 +14,21 @@
 html{
     font-family: 'Ubuntu';
 }
+a{
+    color:blue;
+}
+
+a:active {
+    color: red;
+}
+
+a:visited{
+    color: brown;
+    text-decoration: double;
+}
+
+a:hover{
+    color: aqua;
+    text-decoration: none;
+    cursor: pointer;
+}
